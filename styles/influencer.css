@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared styles */
+body{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.color-1{
+    color:#3A3A3A;
+}
+.btn-primary{
+    max-width: 12.25rem;
+    padding: 10px 24px;
+    border-radius: 2.56rem;
+    background-color:#E02C6D;
+    color:#FFFFFF;
+    border:none
+}
+
+/* header styles */
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap:2rem;
+    font-size: 1rem;
+    font-weight:600;
+}
+.logo{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hero-section styles */
+.hero-section{
+    display: flex;
+    gap:21rem;
+    margin: 4.3rem auto;
+}
+.hero-desc{
+    max-width: 582px;
+    margin-left: 2rem;
+}
+.hero-desc h3{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height:4rem;
+    margin-bottom: 1rem;
+}
+.hero-desc p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.hero-img{
+    position: relative;
+    max-width:100%;
+}
+.circle{
+    position: absolute;
+    z-index: 1;
+}
+.camera{
+    position: absolute;
+    z-index: 2;
+    top:15%
+}
